@@ -1,3 +1,1 @@
-Board = Layout 
-Square = Box
-Game = Game 
+React tictactoe game

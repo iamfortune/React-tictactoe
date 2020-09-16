@@ -7,6 +7,10 @@ const styles = {
     margin: '20px auto',
 };
 
+const pStyle = {
+    color: 'green'
+}
+
 
 function Game() {
 
@@ -31,7 +35,7 @@ function Game() {
         <React.Fragment>
             <Layout boxes={layout} onClick={handleClick} />
             <div style={styles}>
-                <p>{winner ? 'Winner: ' + winner : 'Next Player '
+                <p style={pStyle}>{winner ? 'Winner: ' + winner : 'Next Player '
                     + (xIsNext ? 'X' : 'O')}
                 </p>
                 

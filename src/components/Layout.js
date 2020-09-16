@@ -2,7 +2,7 @@ import React from 'react';
 import Box from './Box'
 
 const style = {
-  border: '4px solid darkblue',
+  border: '4px solid lightblue',
   borderRadius: '10px',
   width: '250px',
   height: '250px',
@@ -22,4 +22,4 @@ function Layout({boxes, onClick }) {
     );
 }
 
-export default Layout
+export default Layout;

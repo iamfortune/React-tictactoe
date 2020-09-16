@@ -1,14 +1,14 @@
 import React from 'react';
 
 const style = {
-    background: 'lightblue',
-    border: '2px solid darkblue',
+    background: '#fff',
+    border: '2px solid lightblue',
     fontSize: '30px',
     fontWeight: '800',
     cursor: 'pointer',
     outline: 'none'
-};
- 
+}
+
 
 function Box({ value, onClick }) {
     return (
